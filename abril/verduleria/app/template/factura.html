@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>VERDULERIA JAVI EL GURU</title>
+</head>
+
+<body>
+	<h1>FACTURAS</h1>
+
+	{% for c in diccionario %}
+
+	<p>{{c.cliente}} {{c.producto}} {{c.cantidad}} {{c.fecha_de_entrega}}</p>
+
+	{% endfor %}
+</body>
+
+</html>
